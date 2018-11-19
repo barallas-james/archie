@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Teko', sans-serif;
+}
+
+.banner{
+	background-image: url("../images/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+
+}
+
+.box{
+	background-color: rgb(109, 100, 102, 0.7);
+	text-align: center;
+	width: 60%;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%); /*x and y values*/  
+	border-radius: 12px;
+	color: white;
+
+}
+
+hr{
+	border: 5px solid #292F36;
+  	border-radius: 5px;
+
+}
+
+.box > h1{
+	font-size: 8em;
+
+}
+
+.box > p{
+	font-size: 2em;
+
+}
+
+.box button{
+	margin: 20px;
+	width: 70%;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 20px;
+	background-color: #4E3D42;
+	color: white;
+	border: 0;
+
+}
+
+input{
+	width: 100%;
+	padding: 20px;	
+	font-size: 2em;
+}
+
+
+.modal-header{
+	text-align: center;
+
+	font-size: 2em;
+	
+}
+
+.modal-body{
+	text-align: center;
+	font-size: 2em;
+	
+}
+
+.modal-footer{
+	text-align: center;
+	font-size: 2em;
+	
+}
+
+
+
+@media only screen and (max-width: 600px){
+
+.box > h1{
+	font-size: 3em;
+
+}
+
+.box > p{
+	font-size: 1em;
+
+}
+
+
+}
