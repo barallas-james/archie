@@ -2,11 +2,13 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Teko', sans-serif;
+
+	font-family: 'Bungee', cursive;
+
 }
 
-.banner{
-	background-image: url("../images/bg.jpg");
+body{
+	background-image: url("../images/landing-bg.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -16,72 +18,40 @@
 
 }
 
-.box{
-	background-color: rgb(109, 100, 102, 0.7);
-	text-align: center;
-	width: 60%;
-	padding: 40px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%); /*x and y values*/  
-	border-radius: 12px;
-	color: white;
+.container{
+	width: 900px;
+	margin: 0 auto;
+	background-color: rgb(225, 222, 229, 0.8);
+	padding: 0;
 
 }
 
-hr{
-	border: 5px solid #292F36;
-  	border-radius: 5px;
+
+
+
+
+main{
+	margin-top: 20px;
 
 }
 
-.box > h1{
-	font-size: 8em;
+.row{
+	margin-top: 40px;
 
 }
 
-.box > p{
-	font-size: 2em;
-
-}
-
-button{
-	margin: 20px;
-	width: 70%;
-	padding: 10px;
-	border-radius: 5px;
-	font-size: 20px;
-	background-color: #4E3D42;
-	color: white;
-	border: 0;
-
-}
-
-input{
+img{
 	width: 100%;
-	padding: 20px;	
-	font-size: 3em;
-	text-align: center;
+	border-radius: 10px;
 }
 
+main h1{
+	font-size: 40px;
 
-.modal-header{
-	text-align: center;
-
-	font-size: 2em;
-	
 }
 
-.modal-body{
-	text-align: center;
-	font-size: 3em;
-	
-}
-
-.modal-footer{
-	text-align: center;
-	font-size: 2em;
+main p{
+	font-size: 23px;
 	
 }
 
@@ -89,17 +59,16 @@ input{
 
 
 
-@media only screen and (max-width: 600px){
-
-.box > h1{
-	font-size: 3em;
-
-}
-
-.box > p{
-	font-size: 1em;
+footer{
+	height: 20vh;
+	width: 100%;
+	background-color: #000;
+	margin-top: 20px;
+	text-align: center;
 
 }
 
 
-}
+
+
+
