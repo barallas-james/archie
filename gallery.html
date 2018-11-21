@@ -10,7 +10,7 @@
 	<title>Bootstrap Introduction</title>
 
 	<!-- google fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 
 	<!-- font awesome icons -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -28,10 +28,13 @@
 <body>
 
 	<div class="container-fluid">
+
+		
 	
 
-		<header class="banner">
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<header>
+
+			<nav class="navbar navbar-expand-lg navbar-light bg-light ">
 			  <a class="navbar-brand" href="#">Archie</a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
@@ -63,35 +66,238 @@
 
 
 		<main class="container">
-			
+
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-			  <ol class="carousel-indicators">
-			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-			  </ol>
-			  <div class="carousel-inner">
-			    <div class="carousel-item active">
-			      <img class="d-block w-100" src="assets/images/gallery-car-1.jpg" alt="First slide">
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" src="assets/images/gallery-car-2.jpg" alt="Second slide">
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" src="assets/images/gallery-car-3.jpg" alt="Third slide">
-			    </div>
-			  </div>
-			  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Previous</span>
-			  </a>
-			  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Next</span>
-			  </a>
+			  	<ol class="carousel-indicators">
+			    	<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			    	<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			    	<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			  	</ol>
+			  	<div class="carousel-inner">
+			    	<div class="carousel-item active">
+			      		<img class="d-block w-100" src="assets/images/gallery-car-1.jpg" alt="First slide">
+			    	</div>
+			    	<div class="carousel-item">
+			      		<img class="d-block w-100" src="assets/images/gallery-car-2.jpg" alt="Second slide">
+			    	</div>
+			    	<div class="carousel-item">
+			      		<img class="d-block w-100" src="assets/images/gallery-car-3.jpg" alt="Third slide">
+			    	</div>
+			  	</div>
+			  	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			    	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    	<span class="sr-only">Previous</span>
+			  	</a>
+			  	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    	<span class="sr-only">Next</span>
+			  	</a>
 			</div>
+
+			<div class="content">
+
+				<div class="row">
+					<div id="left" class="col-md-3 d-none d-sm-block">
+						<h2>Categories</h2>
+
+						<div class="list-group">
+							<a href="#res-archi" class="list-group-item list-group-item-action">Residential Architecture</a>
+							<a href="#com-archi" class="list-group-item list-group-item-action">Commercial Architecture</a>
+							<a href="#int-des" class="list-group-item list-group-item-action">Interior Designer</a>
+							<a href="#gd-archi" class="list-group-item list-group-item-action">Green Design Architecture</a>
+							<a href="#land-archi" class="list-group-item list-group-item-action">Landscape Architecture</a>
+							<a href="#urb-des" class="list-group-item list-group-item-action">Urban Designer</a>
+							<a href="#ind-archi" class="list-group-item list-group-item-action">Industrial Architecture</a>
+						</div>
+
+					</div>
+
+
+					<div id="right" class="col-md-9 col-12">
+
+						<h3 id="res-archi">Residential Architecture</h3>
+						<div class="row">
+							<div class="col-12 col-md-6">
+								<div class="card">
+									<img class="card-img-top img-fluid" src="assets/images/archi-pic.jpg">
+
+									<button name="mod-gal" data-toggle="modal" data-target="#modal-1">Preview</button>
+						
+								</div>	
+
+							</div>
+
+							<div class="col-12 col-md-6">
+								<div class="card">
+									<img class="card-img-top img-fluid" src="assets/images/gallery-car-1.jpg">
+
+									<button name="mod-gal" data-toggle="modal" data-target="#modal-1">Preview</button>
+
+								</div>	
+
+							</div>
+						</div>
+
+						<h3 id="com-archi">Commercial Architecture</h3>
+						<div class="row">
+							<div class="col-12 col-md-6">
+								<div class="card">
+									<img class="card-img-top img-fluid" src="assets/images/archi-pic.jpg">
+
+									<button name="mod-gal" data-toggle="modal" data-target="#modal-1">Preview</button>
+						
+								</div>	
+
+							</div>
+
+							<div class="col-12 col-md-6">
+								<div class="card">
+									<img class="card-img-top img-fluid" src="assets/images/gallery-car-1.jpg">
+
+									<button name="mod-gal" data-toggle="modal" data-target="#modal-1">Preview</button>
+
+								</div>	
+
+							</div>
+						</div>
+
+						<h3 id="int-des">Interior Designer</h3>
+						<div class="row">
+							<div class="col-12 col-md-6">
+								<div class="card">
+									<img class="card-img-top img-fluid" src="assets/images/archi-pic.jpg">
+
+									<button name="mod-gal" data-toggle="modal" data-target="#modal-1">Preview</button>
+						
+								</div>	
+
+							</div>
+
+							<div class="col-12 col-md-6">
+								<div class="card">
+									<img class="card-img-top img-fluid" src="assets/images/gallery-car-1.jpg">
+
+									<button name="mod-gal" data-toggle="modal" data-target="#modal-1">Preview</button>
+
+								</div>	
+
+							</div>
+						</div>
+
+						<h3 id="gd-archi">Green Design Architecture</h3>
+						<div class="row">
+							<div class="col-12 col-md-6">
+								<div class="card">
+									<img class="card-img-top img-fluid" src="assets/images/archi-pic.jpg">
+
+									<button name="mod-gal" data-toggle="modal" data-target="#modal-1">Preview</button>
+						
+								</div>	
+
+							</div>
+
+							<div class="col-12 col-md-6">
+								<div class="card">
+									<img class="card-img-top img-fluid" src="assets/images/gallery-car-1.jpg">
+
+									<button name="mod-gal" data-toggle="modal" data-target="#modal-1">Preview</button>
+
+								</div>	
+
+							</div>
+						</div>
+
+						<h3 id="land-archi">Landscape Architecture</h3>
+						<div class="row">
+							<div class="col-12 col-md-6">
+								<div class="card">
+									<img class="card-img-top img-fluid" src="assets/images/archi-pic.jpg">
+
+									<button name="mod-gal" data-toggle="modal" data-target="#modal-1">Preview</button>
+						
+								</div>	
+
+							</div>
+
+							<div class="col-12 col-md-6">
+								<div class="card">
+									<img class="card-img-top img-fluid" src="assets/images/gallery-car-1.jpg">
+
+									<button name="mod-gal" data-toggle="modal" data-target="#modal-1">Preview</button>
+
+								</div>	
+
+							</div>
+						</div>
+
+						<h3 id="urb-des">Urban Designer</h3>
+						<div class="row">
+							<div class="col-12 col-md-6">
+								<div class="card">
+									<img class="card-img-top img-fluid" src="assets/images/archi-pic.jpg">
+
+									<button name="mod-gal" data-toggle="modal" data-target="#modal-1">Preview</button>
+						
+								</div>	
+
+							</div>
+
+							<div class="col-12 col-md-6">
+								<div class="card">
+									<img class="card-img-top img-fluid" src="assets/images/gallery-car-1.jpg">
+
+									<button name="mod-gal" data-toggle="modal" data-target="#modal-1">Preview</button>
+								</div>	
+
+							</div>
+						</div>
+
+						<h3 id="ind-archi">Industrial Architecture</h3>
+						<div class="row">
+							<div class="col-12 col-md-6">
+								<div class="card">
+									<img class="card-img-top img-fluid" src="assets/images/archi-pic.jpg">
+
+									<button name="mod-gal" data-toggle="modal" data-target="#modal-1">Preview</button>
+						
+								</div>	
+
+							</div>
+
+							<div class="col-12 col-md-6">
+								<div class="card">
+									<img class="card-img-top img-fluid" src="assets/images/gallery-car-1.jpg">
+
+									<button name="mod-gal" data-toggle="modal" data-target="#modal-1">Preview</button>
+								</div>	
+
+							</div>
+						</div>
+
+
+
+
+
+
+
+
+					</div>
+				</div>
+			</div>
+
+
+
+		<div id="modal-1" class="modal fade">
+			<div class="modal-dialog modal-lg" role="document">		
+				<div class="modal-body">
+					<img src="assets/images/archi-pic.jpg">
+
+				</div>
+
+			</div>
+		</div>
 			
-			
+	</div>
 
 
 		</main>
