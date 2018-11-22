@@ -37,37 +37,25 @@ hr{
 }
 
 .box > h1{
-	font-size: 70px;
+	font-size: 4em;
 
 }
 
 .box > p{
-	font-size: 40px;
+	font-size: 2em;
 
 }
 
-button{
-	margin: 20px;
-	width: 70%;
-	padding: 30px;
-	border-radius: 5px;
-	font-size: 30px;
-	background-color: #4E3D42;
-	color: white;
-	border: 0;
 
-}
 
 button a{	
 	color: white;
-	font-size: 30px;
+	font-size: 2em;
 	text-decoration: none;
 }
 
 button a:visited{	
 	color: white;
 }
-
-
 
 
