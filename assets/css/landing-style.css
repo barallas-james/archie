@@ -2,11 +2,11 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Teko', sans-serif;
+		font-family: 'Roboto Condensed', sans-serif;
 }
 
 .banner{
-	background-image: url("../images/archi-bg.jpg");
+	background-image: url("../images/landing-bg.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -17,9 +17,9 @@
 }
 
 .box{
-	background-color: rgb(109, 100, 102, 0.7);
+	background-color: rgb(18, 17, 19, 0.8);
 	text-align: center;
-	width: 60%;
+	min-width: 50%;
 	padding: 40px;
 	position: absolute;
 	top: 50%;
@@ -37,65 +37,37 @@ hr{
 }
 
 .box > h1{
-	font-size: 8em;
+	font-size: 70px;
 
 }
 
 .box > p{
-	font-size: 2em;
+	font-size: 40px;
 
 }
 
 button{
 	margin: 20px;
 	width: 70%;
-	padding: 10px;
+	padding: 30px;
 	border-radius: 5px;
-	font-size: 20px;
+	font-size: 30px;
 	background-color: #4E3D42;
 	color: white;
 	border: 0;
 
 }
 
-input{
-	width: 100%;
-	padding: 20px;	
-	font-size: 3em;
-	text-align: center;
+button a{	
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+button a:visited{	
+	color: white;
 }
 
 
-.modal-header{
-	text-align: center;
-
-	font-size: 2em;
-	
-}
-
-.modal-body{
-	text-align: center;
-	font-size: 3em;
-	
-}
-
-.modal-footer{
-	text-align: center;
-	font-size: 2em;
-	
-}
-
-@media only screen and (max-width: 600px){
-
-.box > h1{
-	font-size: 3em;
-
-}
-
-.box > p{
-	font-size: 1em;
-
-}
 
 
-}
