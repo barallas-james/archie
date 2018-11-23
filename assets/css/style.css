@@ -149,9 +149,15 @@ header img{
 
 
 footer{
-	height: 20vh;
+	min-height: 20vh;
 	width: 100%;
 	background-color: rgb(18, 17, 19, 0.9);
+
+}
+
+footer .row{
+	padding: 0;
+
 
 }
 

@@ -107,7 +107,7 @@
   }
 }
 
-.flash {
+.flash:hover {
   -webkit-animation-name: flash;
   animation-name: flash;
 }
@@ -148,7 +148,7 @@
   }
 }
 
-.pulse {
+.pulse:hover {
   -webkit-animation-name: pulse;
   animation-name: pulse;
 }
@@ -282,7 +282,7 @@
   }
 }
 
-.shake {
+.shake:hover {
   -webkit-animation-name: shake;
   animation-name: shake;
 }
@@ -1190,7 +1190,7 @@
   }
 }
 
-.bounceOut {
+.bounceOut:active {
   -webkit-animation-duration: 0.75s;
   animation-duration: 0.75s;
   -webkit-animation-name: bounceOut;
@@ -1662,7 +1662,7 @@
   }
 }
 
-.fadeOut {
+.fadeOut:active {
   -webkit-animation-name: fadeOut;
   animation-name: fadeOut;
 }
