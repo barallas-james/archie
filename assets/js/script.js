@@ -17,4 +17,8 @@ function myPicture(pic) {
 
 	    document.getElementById("myImg").src = x;
 
-		}
+}
+
+
+
+
